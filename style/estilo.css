@@ -50,10 +50,25 @@ body{
     padding-left: 0
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
+.botao1{
+    
+    border:none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao2{
     border:none;
     color: white;
+    background-color: rgb(49, 47, 47);
+    border-radius: 10px;
 
     padding:15px 30px;
     margin-right: 15px;
@@ -97,6 +112,7 @@ body{
     }
    
     .botao{
+        
         margin-top: 5px;
         width: 300px;
     }
